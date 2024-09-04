@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Button</title>
+    <style>
+        .emergency-button {
+            background-color: red;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <button class="emergency-button" onclick="makeCall()">Call for Help</button>
+
+    <script>
+        function makeCall() {
+            window.location.href = 'tel:+91 7006623705';
+        }
+    </script>
+</body>
+</html>
